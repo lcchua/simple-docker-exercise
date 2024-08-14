@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "kubernetes://schema/v1@pod": "file:///Users/laich/NTU_CE7/simple-docker-exercise/flask-app.yaml"
+  }
+}
