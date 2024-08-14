@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lcchua-flask-app
+spec:
+  containers:
+  - name: lcchua-flask-app
+    image: public.ecr.aws/u2q1a2y8/lcchua-flask-app:latest
+    ports:
+    - containerPort: 80
