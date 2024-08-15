@@ -1,5 +1,5 @@
 # simple-docker-exercise
 
-NTU_CE7 first learning on Git
+Learning about Docker/ECS, ECR, Docker and Kubectlß
 
 Hello World!
