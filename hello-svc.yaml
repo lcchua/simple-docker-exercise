@@ -6,6 +6,6 @@ spec:
   selector:
     app: lcchua-ecr-hello
   ports:
-    - port: 80
+    - port: 80000
       targetPort: 8000
   type: LoadBalancer
