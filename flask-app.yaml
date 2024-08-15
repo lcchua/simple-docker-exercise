@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: lcchua-flask-app
-      image: public.ecr.aws/u2q1a2y8/lcchua-flask-app:v1-flask-app
+      image: public.ecr.aws/u2q1a2y8/lcchua-flask-app:v1
       ports:
         - containerPort: 8000
