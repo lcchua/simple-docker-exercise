@@ -7,4 +7,4 @@ spec:
     - name: lcchua-flask-container
       image: public.ecr.aws/u2q1a2y8/lcchua-flask-app:latest
       ports:
-        - containerPort: 80
+        - containerPort: 8000
