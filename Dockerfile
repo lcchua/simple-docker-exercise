@@ -10,4 +10,4 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 COPY . /app
 
 ENTRYPOINT ["python3"]
-CMD ["app_v1.py"]
+CMD ["app_v2.py"]
