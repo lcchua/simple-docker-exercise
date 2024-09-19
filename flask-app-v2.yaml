@@ -10,3 +10,10 @@ spec:
       image: public.ecr.aws/u2q1a2y8/lcchua-flask-app:v2
       ports:
         - containerPort: 8000
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
