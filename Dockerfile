@@ -13,4 +13,4 @@ EXPOSE 80
 COPY . /app
 
 ENTRYPOINT ["python3"]
-CMD ["app_v1.py"]
+CMD ["app_v2.py"]
